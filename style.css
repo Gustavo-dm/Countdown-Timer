@@ -1,0 +1,40 @@
+*{
+  box-sizing:border-box;
+}
+body { 
+  margin:0;
+  background-image:url("https://raw.githubusercontent.com/florinpop17/10-projects-10-hours/master/countdown-timer/snow.jpg");
+  min-height:100vh;
+  background-size:cover;
+  background-position:center center;
+  font-family: 'Noto Sans JP', sans-serif;
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  
+}
+
+.timer-container {
+  display:flex;
+}
+
+h1 {
+  font-weight:normal;
+  font-size:3rem;
+  margin-top:2rem;
+}
+
+.big-text {
+  font-size:5rem;
+  line-height:1;
+  margin:0 2rem;
+}
+
+.countdown{
+  text-align:center;
+}
+.countdown span {  
+  
+  font-weight:bold;
+  font-size:1.5rem;
+}
